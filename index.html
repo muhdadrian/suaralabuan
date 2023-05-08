@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Suara Labuan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <!-- Mobile CSS
+     -->
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/globe.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Date -->
+    <div class="date">
+      <p><span id="current-date"></span></p>
+      <!-- Islamic Date -->
+      <p class="hijrah"><span id="islamicDate"></span></p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar-main">
+      <div class="navbar">
+        <a href="index.html" class="header"
+          >Suara Labuan<br />
+          <h6 class="tagline">Bertindak Adil & Ikhlas</h6>
+          <!-- <p class="sila">Friendship & Brotherhood</p> -->
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="berita.html" class="nav-item">Berita</a></li>
+          <li><a href="suararakyat.html" class="nav-item">Suara Rakyat</a></li>
+          <li><a href="foto.html" class="nav-item">Foto</a></li>
+          <li><a href="tentang.html" class="nav-item">Tentang</a></li>
+          <li><a href="hubungi.html" class="nav-item">Hubungi</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <div class="quran">
+      Wahai orang-orang yang beriman! Jika datang kepada kamu seorang fasik
+      membawa sesuatu berita, maka selidikilah (untuk menentukan) kebenarannya,
+      supaya kamu tidak menimpakan sesuatu kaum dengan perkara yang tidak
+      diingini - dengan sebab kejahilan kamu (mengenainya) - sehingga menjadikan
+      kamu menyesali apa yang kamu telah lakukan. — Al-Hujurat (Al-Quran, 49 :
+      6)
+    </div>
+
+    <!-- Slider -->
+    <!-- <div class="slider">
+      <div class="slides">
+        <a href="berita/lexi.html"
+          ><img class="main-photo" src="img/berita/ai.jpg" alt="Image 1" />
+        </a>
+    </div> -->
+    <div class="slider">
+      <a href="image1.html"
+        ><img src="img/berita/ai.jpg" class="active" />
+        <div class="caption">AI-Media Memperkenalkan Lexi 3.0 Pacuan AI</div></a
+      >
+      <a href="image2.html"
+        ><img src="img/test-photo/two.jpg" />
+        <div class="caption">Al-Aqsa</div></a
+      >
+      <a href="image3.html"
+        ><img src="img/test-photo/three.jpg" />
+        <div class="caption">Masjid Putih</div></a
+      >
+      <a href="image3.html"
+        ><img src="img/test-photo/four.jpg" />
+        <div class="caption">Masjid Biru</div></a
+      >
+      <a href="image3.html"
+        ><img src="img/test-photo/five.jpg" />
+        <div class="caption">Turkey</div></a
+      >
+      <a href="image3.html"
+        ><img src="img/test-photo/six.jpg" />
+        <div class="caption">Swiss</div></a
+      >
+      <div class="slider-buttons">
+        <span class="prev" onclick="slideLeft()">&#10094;</span>
+        <span class="next" onclick="slideRight()">&#10095;</span>
+      </div>
+    </div>
+
+    <div class="hadith">
+      Daripada Ibnu Umar RA, beliau berkata; Rasulullah SAW pernah memegang
+      sebahagian daripada tubuhku seraya bersabda: "Wahai Abdullah, jadilah kamu
+      di dunia ini seakan-akan orang asing atau seorang pengembara, dan
+      persiapkanlah dirimu sebagai calon penghuni kubur." (Hadith riwayat
+      at-Tirmizi, No: 2333, Ibn Majah, No: 4114, Ahmad, No: 4865)
+    </div>
+
+    <!-- Below Slider -->
+    <div class="flex-container">
+      <div class="flex-item">
+        <img src="img/test-photo/one.jpg" alt="Image 1" />
+        <h6>India</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          voluptatem eius mollitia veniam voluptates sunt!
+        </p>
+      </div>
+      <div class="flex-item">
+        <img src="img/test-photo/two.jpg" alt="Image 2" />
+        <h6>India</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          voluptatem eius mollitia veniam voluptates sunt!
+        </p>
+      </div>
+      <div class="flex-item">
+        <img src="img/test-photo/seven.jpg" alt="Image 3" />
+        <h6>India</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          voluptatem eius mollitia veniam voluptates sunt!
+        </p>
+      </div>
+      <div class="flex-item">
+        <img src="img/test-photo/four.jpg" alt="Image 4" />
+        <h6>India</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          voluptatem eius mollitia veniam voluptates sunt!
+        </p>
+      </div>
+      <div class="flex-item">
+        <img src="img/test-photo/five.jpg" alt="Image 5" />
+        <h6>India</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          voluptatem eius mollitia veniam voluptates sunt!
+        </p>
+      </div>
+      <div class="flex-item">
+        <img src="img/test-photo/six.jpg" alt="Image 6" />
+        <h6>India</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          voluptatem eius mollitia veniam voluptates sunt!
+        </p>
+      </div>
+    </div>
+
+    <!-- Empty div -->
+    <div class="empty"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="#" id="#home" class="links">Home</a>
+        <a href="berita.html" id="#blog" class="links">Berita</a>
+        <a href="suararakyat.html" id="#blog" class="links">Suara Rakyat</a>
+        <a href="foto.html" id="#blog" class="links">Foto</a>
+        <a href="tentang.html" id="#blog" class="links">Tentang</a>
+        <a href="hubungi.html" id="#blog" class="links">Hubungi</a>
+      </div>
+      <div class="credit">
+        <p>Suara Labuan | &copy; 2023.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

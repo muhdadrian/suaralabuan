@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Suara Labuan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <!-- Mobile CSS
+     -->
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/globe.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Date -->
+    <div class="date">
+      <p><span id="current-date"></span></p>
+      <!-- Islamic Date -->
+      <p class="hijrah"><span id="islamicDate"></span></p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar-main">
+      <div class="navbar">
+        <a href="index.html" class="header"
+          >Suara Labuan<br />
+          <h6 class="tagline">Bertindak Adil & Ikhlas</h6>
+          <!-- <p class="sila">Friendship & Brotherhood</p> -->
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="berita.html" class="nav-item">Berita</a></li>
+          <li><a href="suararakyat.html" class="nav-item">Suara Rakyat</a></li>
+          <li><a href="foto.html" class="nav-item">Foto</a></li>
+          <li><a href="tentang.html" class="nav-item">Tentang</a></li>
+          <li><a href="hubungi.html" class="nav-item">Hubungi</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <div class="empty-two"></div>
+
+    <div class="berita">
+      <div class="sub-berita">
+        <div class="sub-foto-berita">
+          <img src="img/berita/ai.jpg" alt="" />
+        </div>
+        <div class="rumus">
+          <a href="berita/lexi.html"
+            ><h3 class="tajuk">AI-Media Memperkenalkan Lexi 3.0 Pacuan AI</h3>
+            <p class="berita-pemula">
+              SYDNEY, Australia, 5 Mei -- Ai-Media, peneraju global dalam
+              penyelesaian kapsyen profesional, berbesar hati untuk mengumumkan
+              pelancaran LEXI 3.0, versi baharu dan dipertingkatkan bagi
+              penyelesaian kapsyen langsung perdananya.
+            </p>
+            <a href="berita/lexi.html" class="readmore">Read More...</a>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- The article content -->
+    <!-- <div id="article-summary">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+        mauris quis augue maximus, at molestie mauris blandit.
+      </p>
+      <p>
+        Nullam ac mauris ut risus vulputate dictum. Pellentesque habitant morbi
+        tristique senectus et netus et malesuada fames ac turpis egestas.
+      </p>
+    </div>
+    <div id="article-full" style="display: none">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+        mauris quis augue maximus, at molestie mauris blandit. Nullam ac mauris
+        ut risus vulputate dictum. Pellentesque habitant morbi tristique
+        senectus et netus et malesuada fames ac turpis egestas. Proin euismod
+        euismod nisl, at viverra purus rhoncus non. Donec tincidunt enim sit
+        amet nulla aliquet rhoncus.
+      </p>
+      <p>
+        Etiam id velit eu turpis tempor interdum. Nam sagittis volutpat leo vel
+        euismod. Praesent elementum nibh vel felis finibus aliquet.
+      </p>
+    </div>
+    <button onclick="toggleArticle()">Read More</button>
+
+    <script>
+      function toggleArticle() {
+        var summary = document.getElementById('article-summary');
+        var full = document.getElementById('article-full');
+        var button = document.getElementsByTagName('button')[0];
+        if (full.style.display === 'none') {
+          summary.style.display = 'none';
+          full.style.display = 'block';
+          button.innerHTML = 'Read Less';
+        } else {
+          summary.style.display = 'block';
+          full.style.display = 'none';
+          button.innerHTML = 'Read More';
+        }
+      }
+    </script> -->
+
+    <!-- Empty div -->
+    <div class="empty"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html" id="#home" class="links">Home</a>
+        <a href="berita.html" id="#blog" class="links">Berita</a>
+        <a href="suararakyat.html" id="#blog" class="links">Suara Rakyat</a>
+        <a href="foto.html" id="#blog" class="links">Foto</a>
+        <a href="tentang.html" id="#blog" class="links">Tentang</a>
+        <a href="hubungi.html" id="#blog" class="links">Hubungi</a>
+      </div>
+      <div class="credit">
+        <p>Suara Labuan | &copy; 2023.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
